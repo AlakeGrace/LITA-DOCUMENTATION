@@ -1,0 +1,30 @@
+INTRO EXCEL CALCULATION
+
+SUM add number without condition   ; 
+SUMIF with condition
+COUNTA  to get the total number of staff if under name or letter
+COUNT to get the total number of staff if under figure
+MAX for the highest number     :MAX 
+MIN for the lowest salary       :MINIF 
+LARGE return the highest nth value(4th highest)
+SMALL return the lowest nth value(4th lowest)
+AVERAGE is use without condition    :AVERAGEIF
+
+WHEN TO USE IF OR IFS: when you have single criteria use IF.when you have more than 1 use IFS(eg highest Edo salary}
+
+AVERAGEIF
+
+TO arrange or sort in an order, (right click and go to sort)
+
+-To Eliminate unneccessary pace from names (TRIM )
+-TO get random numbers for salary use(RANDBETWEEN), Once you do te first you can drag the rest.
+-TO make names appear in capital letters(UPPER)(LOWER small letter)
+-TO enter names properly(PROPER)
+-TO properly enter and trim names =PROPER(TRIM(B6))
+-TO get the number of letter in a word before the next space(FIND"",B6)
+-TO get the firstname IN A given Fullname use =LEFT(B6,(FIND""B6)), 
+-TO  get the surname being the 2nd name =RIGHT(B6,LEN(B6)-(FIND""B6))
+-TO get the full name now =B6 &""& C6
+-TO get the first name from email =LEFT(B6,FIND(""
+
+-CTRL+E To automatically fill in values, enter a couple of examples you want as output and keep the active cell in he column you want to fill in.
